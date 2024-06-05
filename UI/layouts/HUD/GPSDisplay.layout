@@ -1,0 +1,23 @@
+FrameWidgetClass {
+ Name "rootFrame"
+ {
+  TextWidgetClass "{618707F1DF0105CE}" : "{B3656334DE3D701F}UI/layouts/WidgetLibrary/TextWidgets/Text_Heading3.layout" {
+   Name "Coords"
+   Slot FrameWidgetSlot "{618707F1DF0105FC}" {
+    Anchor 0.5 0 0.5 0
+    PositionX 0
+    OffsetLeft 0
+    OffsetTop 0
+    SizeX 100
+    OffsetRight -100
+    SizeY 30
+    OffsetBottom -30
+    Alignment 0.5 -3
+   }
+   Text "000-000"
+   "Horizontal Alignment" Center
+   "Vertical Alignment" Center
+   Offset 0 0
+  }
+ }
+}

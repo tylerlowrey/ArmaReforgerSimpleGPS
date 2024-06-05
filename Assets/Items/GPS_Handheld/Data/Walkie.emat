@@ -1,0 +1,5 @@
+MatPBRBasic {
+ EmissiveMap "{71BAA654351174BF}Assets/Items/GPS_Handheld/Walkie_New_Emissive.edds"
+ BCRMap "{3A16E3B1B3EC029F}Assets/Items/GPS_Handheld/Walkie_New_BaseColor.edds"
+ NMOMap "{9C35BDA02DFA7089}Assets/Items/GPS_Handheld/Walkie_New_Normal.edds"
+}

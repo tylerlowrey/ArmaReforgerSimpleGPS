@@ -1,0 +1,84 @@
+GenericEntity {
+ ID "618707FFD869E76F"
+ components {
+  InventoryItemComponent "{618707EFE1BD870E}" {
+   Attributes SCR_ItemAttributeCollection "{618707EF1D92DD1F}" {
+    ItemDisplayName UIInfo "{618707EF4134C78B}" {
+     Name "Handheld GPS"
+     Description "A Handheld GPS that provides map grid coordinates"
+     Icon "{7CB680929DA4CA4E}Assets/Items/GPS_Handheld/GPS_Handheld_Icon.edds"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{618707EF0491AEB7}" {
+     Weight 1
+     SizeSetupStrategy Manual
+     ItemVolume 200
+     RestingAdditiveOffsetLS 0 0 0.1
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{618707EE322FDF73}" {
+     AnimationInstance "{332D4A7512E78419}Assets/Items/Equipment/workspaces/Radio_ANPRC68_player.asi"
+     AnimationAttachments {
+      AnimationAttachmentInfo "{618905D18E63F872}" {
+       AnimGraph "{402BB5FA2891D687}Assets/Items/Equipment/workspaces/Radio_ANPRC68.agr"
+       AnimInstance "{332D4A7512E78419}Assets/Items/Equipment/workspaces/Radio_ANPRC68_player.asi"
+       BindingName "Gadget"
+      }
+     }
+     AllowInspection 1
+    }
+    CustomAttributes {
+     CharacterModifierAttributes "{618707EE42B242EE}" {
+     }
+     PreviewRenderAttributes "{618707D4983F070F}" {
+      CameraPreset Top
+      CameraOrbitAngles 20 0 0
+      CameraDistanceToItem 1
+      CameraOffset 0 -0.015 0
+      FOV 10
+      AspectRatio 1
+     }
+     SCR_VONPreviewAttributes "{618707D48CF32C23}" {
+      CameraOrbitAngles -30 180 45
+      CameraDistanceToItem 0.6
+      FOV 40
+      AspectRatio 1
+     }
+    }
+    CommonItemType "NONE"
+    m_Size SLOT_1x1
+    m_SlotType SLOT_GADGETS_STORAGE
+   }
+  }
+  MeshObject "{618707FF9C6FAFD4}" {
+   Object "{A143AB1CEC55097A}Assets/Items/GPS_Handheld/SciFiWalkie.xob"
+  }
+  RigidBody "{618707D450A733EE}" {
+   CenterOfMass 0 0.1 0
+   ModelGeometry 1
+   CCDRadius 0.015
+  }
+  TF_GPSComponent "{618707DF831A6E3D}" {
+   m_eAnimVariable ANPRC68
+  }
+  ActionsManagerComponent "{618707D9BE32408A}" {
+   ActionContexts {
+    UserActionContext "{618707D9A7BE3AC0}" {
+     ContextName "default"
+     Position PointInfo "{618707D9D60108BD}" {
+      Offset 0 0.1 0
+     }
+    }
+   }
+   additionalActions {
+    SCR_PickUpItemAction "{618707D9F6217245}" {
+    }
+    SCR_EquipGadgetAction "{618707D9F0B9D60A}" {
+    }
+   }
+  }
+  RplComponent "{618707DA7E2EFB1E}" {
+   "Rpl State Override" Runtime
+  }
+  Hierarchy "{618707DB6199D9EA}" {
+  }
+ }
+}
