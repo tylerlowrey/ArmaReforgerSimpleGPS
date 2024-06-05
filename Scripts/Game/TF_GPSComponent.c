@@ -5,7 +5,7 @@ class TF_GPSComponentClass : SCR_GadgetComponentClass
 
 class TF_GPSComponent : SCR_GadgetComponent
 {
-	[Attribute(defvalue: "{}UI/layouts/HUD/GPSDisplay.layout")]
+	[Attribute(defvalue: "{61832C0CA964B2B9}UI/layouts/HUD/GPSDisplay.layout")]
 	protected ResourceName gpsHudLayout;
 	
 	protected ref Widget gpsHudDisplay;
